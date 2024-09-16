@@ -9,9 +9,9 @@ def formativa1(nome):
         pokemon = res.json()
         return pokemon
     else:
-        print("Pokemon não encontrado!")
+        print(f"Pokemon não encontrado! Erro: {res.status_code}")
 
-pokemon = "gengar"
+pokemon = "pikachu"
 atributos = formativa1(pokemon)
 
 if atributos:
