@@ -19,13 +19,3 @@ jobs:
             '**.py'
             README.md
           retention-days: 5
-
-  warning:
-      - name: Create a file
-        run: echo "O ZIP VAI APENAS DURAR 5 DIAS!" > my_file.txt
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Aviso
-          path: my_file.txt
-          retention-days: 5
