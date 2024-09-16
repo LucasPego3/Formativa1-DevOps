@@ -22,7 +22,7 @@ jobs:
 
   warning:
       - name: Create a file
-        run: echo "O ZIP VAI DURAR 5 DIAS!" > my_file.txt
+        run: echo "O ZIP VAI APENAS DURAR 5 DIAS!" > my_file.txt
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
