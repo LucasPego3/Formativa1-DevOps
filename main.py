@@ -15,5 +15,7 @@ pokemon = "pikachu"
 atributos = formativa1(pokemon)
 
 if atributos:
-    print({atributos["name"]})
-    print({atributos["id"]})
+    print(f"{atributos["name"]}")
+    print(f"{atributos["id"]}")
+    print(f"{atributos["height"]} fts")
+    print(f"{atributos["weight"]} lbs")
