@@ -10,6 +10,6 @@ def test_formativa1_success():
     assert result['id'] == 25
 
 
-def test_formativa1_failure():
+def test_formativa1_fail():
     result = formativa1('invalid_pokemon')
     assert result is None
